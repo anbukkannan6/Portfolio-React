@@ -1,0 +1,37 @@
+*{
+    background-color: grey;
+    font-family: sans-serif;
+
+}
+
+.navebar_main_container{
+    border: solid black 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    >li{
+        padding: 10px;
+    }
+}
+
+.hero_container{
+    display: flex;
+}
+.hero_image{
+    width: 100%;
+}
+
+.skill_main_container{
+    display: flex;
+}
+
+.project_cont_main{
+    display: flex;
+}
